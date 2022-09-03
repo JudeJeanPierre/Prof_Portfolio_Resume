@@ -1,0 +1,111 @@
+body{
+    /* background-color: beige ; */
+}
+
+.headContainer{
+    border: solid rgb(54, 62, 179);
+    background-color: rgb(39, 189, 71);
+    height: 60px;
+    width: 100%;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+/* .headText{
+    padding-left: 520px;
+    padding-bottom: ;
+} */
+.coverContainer{
+    border: solid rgb(54, 62, 179);
+    height: 120vh;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.leftSide{
+    border: solid green;
+    height: 120vh;
+    width: 40%;
+
+}
+.bridge{
+    border: solid purple;
+    height: 120vh;
+    width: 15%;
+}
+    .bridge:hover{
+    border: solid purple;
+    height: 120vh;
+    width: 15%;
+    -webkit-box-shadow: -1px -2px 5px 2px; 
+    box-shadow: -1px -2px 5px 2px;
+    width: 20%;
+
+}
+.rightSide{
+    border: solid orange;
+    height: 120vh;
+    width: 40%;
+} 
+.titleLeft{
+    text-align: center;
+    color: blue;
+}
+
+.pic1{
+    border: rgba(54, 62, 179, .55);
+    width: 50%;
+    padding-left: 25%;
+    padding-top: 10%;
+}
+.pic1:hover{
+    border:rgb(54, 62, 179);
+    width: 50%;
+    padding-left: 25%;
+    padding-top: 10%;
+    shape-outside: -o-linear-gradient();
+    width: 41%;
+}
+    
+.text1{
+    text-align: center;
+
+}
+.text2{
+text-align: center;
+}
+.text3{
+    text-align: center;
+font-size: small;
+
+}
+.quote{
+    text-align: center;
+    font-size: small;
+    padding-top: 17%;
+    color: orangered;
+}
+
+.actBtn{
+    /* margin-left: 20px; */
+    border: solid peru;
+    height: 40px;
+    width: 150px;
+    align-content: center;
+    cursor: pointer;
+    
+}
+
+h2{
+color: ;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-indent: 2em;
+padding-top: 3%;
+/* max-height: 5em; */
+cursor: pointer;
+}
